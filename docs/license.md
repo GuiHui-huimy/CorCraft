@@ -39,7 +39,7 @@ This is the licence most readers want for code, and it is the one I would want i
 
 For text or a diagram, a line of this shape is enough:
 
-> Su, Guohui. *C/C++ Craft: Memory-First C and C++*. 2026. https://guihui-huimy.github.io/CorCraft/. CC BY-NC-SA 4.0. Adapted from the original.
+> Su, Guohui. *C/C++ Craft: A Standard C and C++ Course with a Computational Biology Track*. 2026. https://guihui-huimy.github.io/CorCraft/. CC BY-NC-SA 4.0. Adapted from the original.
 
 For code, keep the notice that ships in the files, or add:
 

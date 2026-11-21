@@ -96,7 +96,7 @@ The boundary is deliberate: a snippet under a non-commercial copyleft licence is
 
 **Attribution.** For text, a citation like the one below is enough; for code, keep the notice in the file.
 
-> Su, Guohui. *C/C++ Craft: Memory-First C and C++*. 2026. https://guihui-huimy.github.io/CorCraft/. CC BY-NC-SA 4.0. Adapted from the original.
+> Su, Guohui. *C/C++ Craft: A Standard C and C++ Course with a Computational Biology Track*. 2026. https://guihui-huimy.github.io/CorCraft/. CC BY-NC-SA 4.0. Adapted from the original.
 
 **Commercial permission.** If you want the text in a paid course, a company training programme or a printed book, write to `suguohui_account@163.com` with the material, the audience and the channel. Silence is not permission. The code needs no such conversation; MIT already allows commercial use.
 

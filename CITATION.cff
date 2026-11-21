@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this book or its exercises, cite it as below."
+type: book
+title: "C/C++ Craft: A Standard C and C++ Course with a Computational Biology Track"
+authors:
+  - family-names: Su
+    given-names: Guohui
+    affiliation: "Henan University of Technology"
+    email: suguohui_account@163.com
+version: 1.0.0
+doi: 10.5281/zenodo.24422396
+date-released: "2026-11-22"
+url: "https://guihui-huimy.github.io/CorCraft/"
+repository-code: "https://github.com/GuiHui-huimy/CorCraft"
+license: CC-BY-NC-SA-4.0
+keywords:
+  - C
+  - C++
+  - memory model
+  - computational biology
+  - programming education
+abstract: >-
+  A teaching book that explains C and C++ through the object model: the width,
+  the lifetime and the owner of every object, from a single int to a PDB
+  structure. The text and diagrams are licensed CC BY-NC-SA 4.0; the code in
+  code/, labs/ and tools/ is MIT.

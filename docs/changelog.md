@@ -36,6 +36,13 @@ Changes to this book and to the code it ships with. Entries are dated; a page ch
 
 The homepage demonstration image is still the inherited screenshot; it is kept as a placeholder, and the book's own terminal capture replaces it when one exists.
 
+## 2026-11-22 — New subtitle
+
+### Documentation
+
+- Replaced the subtitle "Memory-First C and C++, from a Byte to a Protein Structure" with "A Standard C and C++ Course with a Computational Biology Track" in `CITATION.cff`, `README.md`, `mkdocs.yml` (`site_description`), the page title and social card in `docs/index.md`, the attribution line in `docs/license.md` and `start-here/preface.md`, and the strapline on the home page.
+- The chapters, navigation and licence text are unchanged; the phrase "memory-first" remains in the prose where it describes the method rather than the title.
+
 ## 2026-11-21 — Licences added
 
 ### Documentation

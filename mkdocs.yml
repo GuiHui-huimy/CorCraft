@@ -3,7 +3,7 @@ site_name: C/C++ Craft
 site_url: https://guihui-huimy.github.io/CorCraft/
 site_author: HUI-MY
 site_description: >-
-  A memory-first, laboratory-style course in C and C++ that ends in protein structure computation.
+  A standard, laboratory-style course in C and C++, with a computational biology track that applies the object model to protein structures.
 
 # Repository
 repo_name: GuiHui-huimy/CorCraft
