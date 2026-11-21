@@ -1,55 +1,56 @@
 # Changelog
 
-All notable changes to LabPress will be documented in this file.
+Changes to this book and to the code it ships with. Entries are dated; a page change names the chapter, a code change names the directory.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
-
-## [1.1.0] - 2026-08-14
-
-### Added
-
-- Translation function `__()` now supports explicit plugin language loading using the `plugin:` prefix. Plugin authors can call `__('key', 'plugin:plugin-slug')` to load translations directly from a specific plugin, avoiding key collisions with core language packs.
-
-### Changed
-
-- Plugin language files are now loaded only when explicitly requested or during the automatic scan of active plugins. The automatic scan now sanitizes plugin slugs before building file paths.
-- Dynamic Multi-Language plugin language keys now use the `ml_` prefix to prevent conflicts with core language keys.
-
-### Fixed
-
-- Fixed an issue where the Dynamic Multi-Language plugin's language keys (such as `plugin_name`, `about_us`, `research_title`) overwrote core language keys, causing incorrect strings to appear in the admin panel.
-- Fixed plugin language file loading path when using the explicit `plugin:` module prefix.
+## 2026-11-21 — Repository initialised
 
 ### Documentation
 
-- Updated plugin development documentation to include the `plugin:` explicit language loading syntax and key prefix recommendation.
+- Added `start-here/preface.md`, stating the memory-first argument and the six-section structure.
+- Added `start-here/about-the-author.md` with a short biography and four contact routes.
+- Added `start-here/linux-toolchain.md`: three routes (Linux or WSL2, Visual Studio 2022, conda-forge), version floors, a sanitiser runtime check, and six common installation failures.
+- Added `start-here/first-program.md`: one program compiled four times, with the warning text quoted verbatim.
+- Added `start-here/how-to-use.md`: numbering, the four-line header, `ctest`, the lab protocol, three rules for using a model.
+- Replaced `contributing.md`, `security.md` and this file, which still described the inherited template project.
+- Set the site identity in `mkdocs.yml`: name, URL, repository, edit URI, copyright, magic-link repository and the GitHub social link.
+- Replaced the homepage text nodes with the book's own copy; layout and structure unchanged.
 
-## [1.0.0] - 2026-08-11
+### Code
 
-### Added
+- Created `code/` with 38 stage directories across `c/`, `cpp/` and `bio/`, each holding a README that names its chapter and lists the files actually present.
+- Added 38 `labs/<track>/<stage>/check.sh` scripts, one per stage, each building a single target with the project flags and reporting warnings without failing on them.
+- Added `code/CMakeLists.txt` with the `craft_common` interface target, the `craft_lab()` helper and `enable_testing()`.
+- Added `code/include/craft_assert.h`, `craft_bench.h` and `craft_io.h`.
+- Added `tools/Makefile` (configure, build, test, sanitize, labs, clean) and `tools/run_labs.sh`.
+- Added `labs/c`, `labs/cpp`, `labs/bio` with their grading conventions, including the zero-warning rule for C++.
+- Added `data/README.md` with accession numbers and download commands instead of committed coordinates.
+- Added `kb/README.md` describing the local knowledge base used by the AI-assisted workflow chapter.
 
-- Initial stable release of LabPress, an open-source academic CMS designed for research laboratories.
+### Removed
 
-#### Core Features
+- Removed `docs/assets/contentImag/`, 46 screenshots of the inherited template's administration panel.
+- Removed `docs/setup/`, four pages describing template plugins, navigation and site settings.
+- Removed `docs/getting-started/`, four pages describing template installation and configuration.
 
-- Dynamic content management – Edit "About Us", research directions, stats, navigation menus directly from the backend.
-- Built-in academic modules – Publications, projects, research news, tools, and version management.
-- Hook-driven plugin system – Fully extendable via WordPress-like Action/Filter hooks.
-- Comprehensive i18n – Front-end and back-end locales are decoupled; dynamic multi-language support for all user-generated content.
-- Markdown editor – Integrated EasyMDE with live preview and split-screen editing.
-- Lightweight & zero-dependency – Pure PHP + MySQL, no frameworks or Composer required.
-- Plugin ecosystem – Install, activate, update, and uninstall plugins directly from the admin panel.
+### Known gaps
 
-### Installation
+The homepage demonstration image is still the inherited screenshot; it is kept as a placeholder, and the book's own terminal capture replaces it when one exists.
 
-- Clone or download the repository.
-- Copy `includes/config-sample.php` to `includes/config.php` and fill in database credentials.
-- Import `labpressexample.sql` into MySQL.
-- Grant write permissions to `uploads/` and `plugins/` directories.
-- Access frontend at `/`, backend at `/admin`.
+## 2026-11-21 — Editorial pass: numbering, lead-ins, depth
 
-### Important
+### Documentation
 
-- The default administrator account included in the example database must be changed immediately after login.
-- This release uses GPL v3 license.
+- Renumbered every content page's second-level headings as `## 1.`, `## 2.`, … in reading order; `## Continue` stays unnumbered because it is page navigation, not a section. The hierarchy is now H1 plus numbered H2 on all 60 pages.
+- Added a first-person lead-in paragraph after the H1 of all 58 chapters, each written for its own page: it states the order of the argument and what was left out, rather than summarising the sections.
+- Deepened twelve chapters where the explanation had been a definition followed by a table: `c/pointers.md` (tcache overwrites the first sixteen bytes of a freed chunk), `cpp/classes.md` (three sizes that contain the object model), `cpp/lifetime.md` (the three failures of the naive assignment), `cpp/inheritance.md` (the two parts of `delete` through a base pointer), `cpp/polymorphism.md` (the three steps of slicing), `cpp/operators.md` (cross-multiplication overflow at 2^62), `cpp/containers.md` (why 1.5× can reuse freed blocks and 2× cannot), `cpp/modern.md` (`auto` deduction and the `vector<bool>` proxy), `cpp/exceptions.md` (`move_if_noexcept` choosing copy at compile time), `cpp/algorithms.md` (the unguarded partition that `<=` walks past the end), `bio/alignment.md` (BLOSUM as half-bit log-odds and why scores add), `engineering/compile-pipeline.md` (`<optimized out>` and `-Og`).
+- Rewrote `about/ai-assisted-workflow.md` in the first person around one real project: the local Obsidian knowledge base at `生物信息学工具/多肽对接/多肽生成器` with its 28 notes, the `2-8` numbering collision that fed a prompt the wrong note, three pytest contracts, and a 3.2M-row run killed with `kill -9` that still passed `PRAGMA integrity_check`.
+- Rewrote `start-here/about-the-author.md` in the first person, keeping the same facts.
+- `start-here/linux-toolchain.md` presents three routes as peers — Linux or WSL2 is what the book builds on, Visual Studio 2022 and conda-forge are first-class alternatives with their own commands — rather than treating Linux as the only option.
+
+### Fixed
+
+- Two lead-in paragraphs (`cpp/inheritance.md`, `cpp/templates.md`) were initially skipped because a forty-character prefix already occurred in the body; they were inserted with full-text matching.
+
+### Known gaps
+
+The seven labs whose assertions were corrected against real sanitizer output (`c_02_lifetime`, `c_05_strlen`, `c_15_list`, `cpp_10_algorithms`, `cpp_12_exceptions`, `bio_03_lse`, `bio_05_pdb`) have not been re-run since those edits, so `ctest` is expected to pass but has not been observed to. The homepage demonstration image is still the inherited screenshot; it is kept as a placeholder, and the book's own terminal capture replaces it when one exists.

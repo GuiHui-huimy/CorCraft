@@ -1,7 +1,7 @@
 ---
 template: home.html
-title: LabPress – Open-Source Academic CMS
+title: C/C++ Craft — From Memory to Protein Structures
 social:
   cards_layout_options:
-    title: Documentation that simply works
+    title: C and C++ from memory to protein structures
 ---

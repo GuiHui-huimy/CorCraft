@@ -44,6 +44,15 @@ tmp
 *~
 # MkDocs
 site/
+# CMake and lab builds
+build/
+build-*/
+CMakeCache.txt
+CMakeFiles/
+*.o
+*.obj
+*.out
+*.exe
 # IDEs & Editors
 
 __pycache__/

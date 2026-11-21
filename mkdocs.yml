@@ -1,17 +1,17 @@
 # Project information
-site_name: HUI-MY Documentation Template
-site_url: https://guihui-huimy.github.io/xxxx/
-site_author: HUI-MY Team
+site_name: C/C++ Craft
+site_url: https://guihui-huimy.github.io/CorCraft/
+site_author: HUI-MY
 site_description: >-
-  HUI-MY Material Theme Mkdoc Template & Get Started Quickly.
+  A memory-first, laboratory-style course in C and C++ that ends in protein structure computation.
 
 # Repository
-repo_name: GuiHui-huimy
-repo_url: https://github.com/GuiHui-huimy/
+repo_name: GuiHui-huimy/CorCraft
+repo_url: https://github.com/GuiHui-huimy/CorCraft
 edit_uri: edit/main/docs/
 
 # Copyright
-copyright: Copyright &copy; 2026 HUIMY - Docs
+copyright: Copyright &copy; 2026 HUIMY - C/C++ Craft
 
 # Configuration
 theme:
@@ -84,7 +84,7 @@ hooks:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/GuiHui-huimy/
+      link: https://github.com/GuiHui-huimy/CorCraft
     - icon: fontawesome/solid/globe
       link: https://www.huimy.top          # 主站
     - icon: fontawesome/solid/newspaper
@@ -123,7 +123,7 @@ markdown_extensions:
       normalize_issue_symbols: true
       repo_url_shorthand: true
       user: GuiHui-huimy
-      repo: LabPress
+      repo: CorCraft
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.snippets:
@@ -144,19 +144,73 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
-# Page tree 
 nav:
   - Home: index.md
-  - Getting Started:
-    - Overview: getting-started/overview.md
-    - Installation: getting-started/installation.md
-    - Quick Start: getting-started/quick-start.md
-    - Configuration: getting-started/configuration.md
-  - Setup:
-    - Site Settings: setup/site-settings.md
-    - Navigation Menu: setup/navigation.md
-    - Plugin Management: setup/plugins.md
-    - Theme: setup/theme.md
-  - Contributing: contributing.md
-  - Security: security.md
-  - Changelog: changelog.md
+  - Start Here:
+    - Preface: start-here/preface.md
+    - About the Author: start-here/about-the-author.md
+    - Toolchain: start-here/linux-toolchain.md
+    - First Program: start-here/first-program.md
+    - How to Use This Book: start-here/how-to-use.md
+  - Part I — C, Memory First:
+    - Objects in Memory: c/objects-in-memory.md
+    - Stack Frames: c/stack-frames.md
+    - Pointers: c/pointers.md
+    - Arrays and Layout: c/arrays-and-layout.md
+    - Strings: c/strings.md
+    - Structs and Padding: c/structs-and-padding.md
+    - The Heap: c/heap.md
+    - Qualifiers and Aliasing: c/qualifiers-and-aliasing.md
+    - Undefined Behaviour: c/undefined-behavior.md
+    - Bit-Level Programming: c/bit-level-programming.md
+    - Function Pointers: c/function-pointers.md
+    - Files and Streams: c/files-and-streams.md
+    - Translation Units: c/translation-units.md
+    - Sorting and Cost: c/sorting-and-cost.md
+    - Linked Structures: c/linked-structures.md
+    - Error Handling: c/error-handling.md
+  - Part II — C++:
+    - From C to C++: cpp/from-c-to-cpp.md
+    - Classes: cpp/classes.md
+    - Construction and Lifetime: cpp/lifetime.md
+    - Inheritance: cpp/inheritance.md
+    - Polymorphism: cpp/polymorphism.md
+    - Operators: cpp/operators.md
+    - Templates: cpp/templates.md
+    - RAII and Smart Pointers: cpp/raii.md
+    - STL Containers: cpp/containers.md
+    - STL Algorithms: cpp/algorithms.md
+    - Modern C++: cpp/modern.md
+    - Exceptions: cpp/exceptions.md
+    - 'Capstone: Sequence Toolkit': cpp/capstone-sequence-toolkit.md
+  - Part III — Engineering:
+    - Compilation Pipeline: engineering/compile-pipeline.md
+    - CMake and Build Systems: engineering/cmake.md
+    - Testing and Sanitizers: engineering/testing.md
+    - Performance: engineering/performance.md
+    - Debugging: engineering/debugging.md
+  - Part IV — Computational Biology:
+    - 'Overview: From Sequence to Structure': bio/overview.md
+    - FASTA and Sequence Input: bio/fasta.md
+    - Sequence Encoding: bio/sequence-encoding.md
+    - Numerics for Scoring: bio/numerics.md
+    - Alignment: bio/alignment.md
+    - PDB Format: bio/pdb-format.md
+    - Geometry: bio/geometry.md
+    - Contacts: bio/contacts.md
+    - Structure Model: bio/structure-model.md
+    - Parallel Scoring: bio/parallel-scoring.md
+  - Reference:
+    - C Reference: reference/c.md
+    - C++ Reference: reference/cpp.md
+    - Compiler Flags: reference/compiler-flags.md
+    - Error Cookbook: reference/error-cookbook.md
+    - Repository Layout: reference/repo-layout.md
+    - Glossary: reference/glossary.md
+  - About:
+    - Roadmap: about/roadmap.md
+    - Projects: about/projects.md
+    - How I Use AI to Build a Project: about/ai-assisted-workflow.md
+    - Contributing: contributing.md
+    - Security: security.md
+    - Changelog: changelog.md
