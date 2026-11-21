@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 05-02  strings/02_safe_input.c
  * Drills: bounded input, the truncation boundary, and why gets() cannot be
  *         used. The lab supplies the lines instead of reading a terminal.

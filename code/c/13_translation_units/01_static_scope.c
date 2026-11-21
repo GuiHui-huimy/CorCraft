@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 13-01  translation_units/01_static_scope.c
  * Drills: internal versus external linkage, the header that declares, and the
  *         one-definition rule this file can only demonstrate from one side.

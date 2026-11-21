@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 10-02  bitops/02_popcount.c
  * Drills: three population-count implementations, and why the table version
  *         wins at the sizes this book uses.

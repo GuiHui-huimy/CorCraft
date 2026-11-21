@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 12-02  files_streams/02_binary_roundtrip.c
  * Drills: writing structs as bytes, the portability problem that creates, and
  *         the field-by-field form that does not.

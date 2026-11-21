@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 01-02  fasta/fasta_cpp.cpp
  * Drills: the same parser with std::optional at the boundary and owning strings
  *         instead of char pointers, so that the free() obligations disappear.

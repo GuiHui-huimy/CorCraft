@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 04-03  arrays_layout/03_transpose_inplace.c
  * Drills: in-place transpose of a square matrix, and why the rectangular case
  *         cannot be done in place.

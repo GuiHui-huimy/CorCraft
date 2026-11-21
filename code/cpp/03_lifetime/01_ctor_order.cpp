@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 03-01  lifetime/01_ctor_order.cpp
  * Drills: members are constructed in declaration order, not in initialiser
  *         order; the copies a by-value parameter and a return each cost.

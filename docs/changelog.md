@@ -36,6 +36,20 @@ Changes to this book and to the code it ships with. Entries are dated; a page ch
 
 The homepage demonstration image is still the inherited screenshot; it is kept as a placeholder, and the book's own terminal capture replaces it when one exists.
 
+## 2026-11-21 — Licences added
+
+### Documentation
+
+- Added `docs/license.md`: the scope table, CC BY-NC-SA 4.0 and MIT in plain terms, the attribution format for text and for code, the route for commercial permission, the third-party components, and the two limits a licence cannot cross.
+- Added `## 7. Licences: what you may do with this book` to `start-here/preface.md`, with the reason for splitting the licence and the boundary between prose and code; `Where to start` moved to `## 8.`.
+- Set the site footer to `Copyright © 2026 HUIMY - Text CC BY-NC-SA 4.0, code MIT`, and added the licence page to the About section of the navigation.
+- Added a `Licence` section to `README.md` and a third-party notice to `NOTICE`.
+
+### Code
+
+- Added `LICENSE` (MIT) at the repository root, covering `code/`, `labs/`, `tools/`, the build files and every code block inside a page.
+- Added `SPDX-FileCopyrightText` and `SPDX-License-Identifier: MIT` headers to all 65 C and C++ translation units.
+
 ## 2026-11-21 — Editorial pass: numbering, lead-ins, depth
 
 ### Documentation

@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 02-01  stack_frames/01_frame_addresses.c
  * Drills: addresses of locals, the direction the stack grows, frame reuse.
  * Build:  cmake --build build --target c_02_frames

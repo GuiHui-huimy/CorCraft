@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 07-03  heap/03_leak_hunt.c
  * Drills: one allocation, one owner, one free — and what the leak detector
  *         reports when an owner is lost.

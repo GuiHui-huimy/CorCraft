@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 10-01  algorithms/01_lambda_pipeline.cpp
  * Drills: sort and stable_sort, a strict weak ordering, find_if, transform,
  *         and the erase-remove idiom with a lambda.

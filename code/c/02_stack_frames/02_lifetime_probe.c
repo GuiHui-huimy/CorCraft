@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 02-02  stack_frames/02_lifetime_probe.c
  * Drills: block scope, storage duration, and the one function that must not
  *         return a pointer to its own local.

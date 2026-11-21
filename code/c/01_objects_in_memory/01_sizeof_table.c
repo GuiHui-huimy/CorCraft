@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 01-01  objects_in_memory/01_sizeof_table.c
  * Drills: sizeof of scalar types, sizeof of an expression, array vs pointer.
  * Build:  cmake --build build --target c_01_sizeof

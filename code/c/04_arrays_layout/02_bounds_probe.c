@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 04-02  arrays_layout/02_bounds_probe.c
  * Drills: the difference between readable and legal, and where the boundary is.
  * Build:  cmake --build build --target c_04_bounds

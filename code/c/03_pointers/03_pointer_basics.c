@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 03-03  pointers/03_pointer_basics.c
  * Drills: pointer arithmetic in units of the pointee, one-past-the-end,
  *         and the difference of two pointers.

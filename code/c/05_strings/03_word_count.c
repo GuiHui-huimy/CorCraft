@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 05-03  strings/03_word_count.c
  * Drills: counting words without splitting the string, and the state machine
  *         that distinguishes inside a word from outside one.

@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 07-01  templates/01_template_diag.cpp
  * Drills: the two defects a template hides until it is instantiated, a
  *         comparator whose condition sorts the wrong way, and the deduction

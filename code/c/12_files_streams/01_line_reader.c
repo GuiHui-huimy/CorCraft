@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 12-01  files_streams/01_line_reader.c
  * Drills: reading a file line by line without a fixed buffer, CRLF handling,
  *         and the truncation that fgets hides.

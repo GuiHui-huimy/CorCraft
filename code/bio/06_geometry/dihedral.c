@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 06-01  geometry/dihedral.c
  * Drills: the four-atom dihedral with atan2, the clamp that avoids a NaN, and
  *         a hand-computable case.

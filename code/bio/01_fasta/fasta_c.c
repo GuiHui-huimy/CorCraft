@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 01-01  fasta/fasta_c.c
  * Drills: parse FASTA into owned records, reject what the format allows but the
  *         downstream cannot use, and free every level exactly once.

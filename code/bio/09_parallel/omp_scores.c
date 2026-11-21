@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 09-01  parallel/omp_scores.c
  * Drills: the scoring loop distributed with OpenMP, wall time measured instead
  *         of CPU time, a reduction that changes the last digits, and the

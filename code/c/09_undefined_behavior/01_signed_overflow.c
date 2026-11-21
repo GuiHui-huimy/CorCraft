@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 09-01  undefined_behavior/01_signed_overflow.c
  * Drills: signed overflow is undefined, unsigned wraps, and the compiler may
  *         use the undefined case to prove things that are not true.

@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 08-01  qualifiers/01_alias_violation.c
  * Drills: const in its three positions, strict aliasing, and the restrict
  *         promise.

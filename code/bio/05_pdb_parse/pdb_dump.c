@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 05-01  pdb_parse/pdb_dump.c
  * Drills: fixed-column parsing, the chain field that whitespace splitting
  *         loses, and the hierarchy a single pass must build.

@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 09-01  containers/01_invalidation.cpp
  * Drills: what a reallocation invalidates, reserve as the fix, and the
  *         erase-remove idiom.

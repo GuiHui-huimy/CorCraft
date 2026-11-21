@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 16-01  error_handling/01_errno_chain.c
  * Drills: errno is a side channel that any call can clobber, so it must be
  *         read immediately and saved before anything else runs.

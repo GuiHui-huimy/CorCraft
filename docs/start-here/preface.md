@@ -80,10 +80,32 @@ Each of these appears in the chapter that would have caught it, labelled as a fi
 
 ## 6. Who wrote this
 
-Mr. Su, The code in this book comes from two years from going back through the early repositories to find out which habits had to be unlearned.
+Mr. Su. I teach the way I was taught to debug: start from the object, not from the syntax. The code in this book comes from two years of going back through my early repositories to find out which habits had to be unlearned.
 
 Contact and the rest of the work: `suguohui_account@163.com`, [www.huimy.top](https://www.huimy.top), [blog.huimy.top](https://blog.huimy.top), [comm.huimy.top](https://comm.huimy.top).
 
-## 7. Where to start
+## 7. Licences: what you may do with this book
+
+The book carries two licences, because its two halves are used in different ways, and one licence cannot serve both.
+
+**The text is CC BY-NC-SA 4.0.** Every chapter, note, exercise and diagram in `docs/` is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0. You may read it, quote it, translate it, teach from it in a class that charges no tuition, and adapt it for your own study group. You must name the author and the page, link to the licence, and say what you changed. You may not put it in a paid course, a paid membership, a commercially sold book or a content site that earns from it. And if you publish an adapted version, it has to carry the same licence: taking a chapter, rewriting the wording and releasing it under a closed licence is exactly what ShareAlike is there to prevent.
+
+**The code is MIT.** Everything in `code/`, `labs/` and `tools/`, plus every code block inside a page, is MIT. Copy it, modify it, ship it in a commercial product, keep your own source closed. The one obligation is to keep the copyright notice with any substantial portion you redistribute. There is no warranty, which is worth remembering when a lab deliberately corrupts a heap.
+
+The boundary is deliberate: a snippet under a non-commercial copyleft licence is a snippet most readers cannot legally paste into their work, and that would defeat the point of shipping code with a book. The prose is the part I wrote as a book, so it is the part that carries the stricter licence.
+
+**Attribution.** For text, a citation like the one below is enough; for code, keep the notice in the file.
+
+> Su, Guohui. *C/C++ Craft: Memory-First C and C++*. 2026. https://guihui-huimy.github.io/CorCraft/. CC BY-NC-SA 4.0. Adapted from the original.
+
+**Commercial permission.** If you want the text in a paid course, a company training programme or a printed book, write to `suguohui_account@163.com` with the material, the audience and the channel. Silence is not permission. The code needs no such conversation; MIT already allows commercial use.
+
+**Third-party parts.** The site runs on MkDocs and MkDocs Material, both MIT. Coordinates mentioned in the biology chapters come from the Protein Data Bank under the wwPDB terms of use, and the repository ships no coordinate files.
+
+**The names stay mine.** "C/C++ Craft", "CorCraft", the logo and the site identity are not covered by either licence. Credit does not grant the right to use them as a mark or to present a derivative as the original.
+
+Two limits are worth stating plainly. A licence governs copying and adaptation, not ideas: someone who reads this book and writes their own explanation of the same material is not infringing. And a licence cannot be withdrawn: this edition stays available under these terms even if a later edition changes them. The complete terms, including the scope table and the third-party notices, are on the [License](../license.md) page and in `LICENSE` and `NOTICE` at the repository root. I am not a lawyer, and none of this is legal advice.
+
+## 8. Where to start
 
 If the toolchain is already installed, go to [First Program](first-program.md) and build something. If it is not, [Linux Toolchain](linux-toolchain.md) takes about twenty minutes. If you want to know how the exercises are meant to be used before writing any code, read [How to Use This Book](how-to-use.md) first; it is the shortest of the three.

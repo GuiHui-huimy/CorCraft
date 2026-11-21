@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 02-03  stack_frames/03_recursion_depth.c
  * Drills: recursion cost, and the depth at which the stack is the limit.
  * Build:  cmake --build build --target c_02_depth

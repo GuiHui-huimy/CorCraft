@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 02-02  encoding/two_bit.c
  * Drills: two bits per base, the read-modify-write that must clear first, and
  *         the memory arithmetic that decides when packing is worth it.

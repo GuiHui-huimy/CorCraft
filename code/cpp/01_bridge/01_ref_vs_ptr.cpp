@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 01-01  bridge/01_ref_vs_ptr.cpp
  * Drills: a reference is an alias, a pointer is an object; the four differences
  *         that decide which one a signature uses.

@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 15-01  linked_structures/01_list_reverse.c
  * Drills: reversing a singly linked list in place, the three-pointer dance, and
  *         the free walk that must follow the same shape.

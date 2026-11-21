@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 09-02  undefined_behavior/02_ub_sweep.c
  * Drills: four undefined behaviours, each with the check that avoids it.
  * Build:  cmake --build build --target c_09_sweep

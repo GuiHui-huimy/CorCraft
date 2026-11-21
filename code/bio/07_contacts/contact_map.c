@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 07-01  contacts/contact_map.c
  * Drills: the contact-definition decisions, the naive O(n^2) cost, a binned
  *         version that must produce an identical map, and bit storage.

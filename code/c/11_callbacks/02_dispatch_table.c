@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 11-02  callbacks/02_dispatch_table.c
  * Drills: a table of function pointers as a command dispatcher, and the switch
  *         it replaces.

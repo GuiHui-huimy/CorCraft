@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 06-02  structs_padding/02_union_typing.c
  * Drills: a union overlays storage; a tag is what makes the overlay safe.
  * Build:  cmake --build build --target c_06_union

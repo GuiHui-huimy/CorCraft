@@ -105,6 +105,10 @@ mkdocs serve
 - No example writes into the source tree; binaries go to `build/` or `/tmp`.
 - A page never claims behaviour the source does not exhibit.
 
+## Licence
+
+The text is CC BY-NC-SA 4.0; the code in `code/`, `labs/` and `tools/`, and every code block inside a page, is MIT. The names, "C/C++ Craft" and "CorCraft", and the logo are reserved. `LICENSE` holds the MIT text, `NOTICE` lists the third-party components, and `docs/license.md` states the scope table, the attribution format and the commercial-permission route.
+
 ## Author
 
 Mr. Su — Biological Engineering (major), Computer Science (minor), Henan

@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 01-02  objects_in_memory/02_endianness_probe.c
  * Drills: byte order of an int, detected two ways, and why it matters for files.
  * Build:  cmake --build build --target c_01_endian

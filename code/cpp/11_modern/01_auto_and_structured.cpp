@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 11-01  modern/01_auto_and_structured.cpp
  * Drills: auto that avoids a narrowing, structured bindings that name both
  *         halves of a result, if-with-initialiser, string_view as a borrow,

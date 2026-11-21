@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 06-01  operators/01_fraction_ops.cpp
  * Drills: an invariant maintained by the constructor, the member versus
  *         non-member decision, and the stream operator that must be a friend.

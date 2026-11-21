@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 04-01  arrays_layout/01_row_major_walk.c
  * Drills: row-major versus column-major traversal of the same matrix, and the
  *         cache effect that decides a benchmark.

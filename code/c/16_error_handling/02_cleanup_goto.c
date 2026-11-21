@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 16-02  error_handling/02_cleanup_goto.c
  * Drills: one exit point, resources released in reverse order, and why the
  *         goto is the right tool here rather than an escape from structure.

@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 10-01  bitops/01_mask_fields.c
  * Drills: put / get / clear / toggle on a named bit range, with no branch.
  * Build:  cmake --build build --target c_10_mask

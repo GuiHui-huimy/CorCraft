@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 05-02  polymorphism/02_slicing.cpp
  * Drills: passing a polymorphic object by value slices it; the three places
  *         slicing happens and the three fixes.

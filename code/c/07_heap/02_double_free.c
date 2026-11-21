@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 07-02  heap/02_double_free.c
  * Drills: the second free, and why setting the pointer to NULL is the guard.
  * Build:  cmake --build build --target c_07_double

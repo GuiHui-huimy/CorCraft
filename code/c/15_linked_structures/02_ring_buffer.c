@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 15-02  linked_structures/02_ring_buffer.c
  * Drills: a fixed-size circular buffer, the full/empty distinction, and the
  *         index arithmetic that wraps without a branch.

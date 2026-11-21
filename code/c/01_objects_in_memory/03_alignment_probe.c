@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 01-03  objects_in_memory/03_alignment_probe.c
  * Drills: alignof, offsetof, and the padding those two numbers explain.
  * Build:  cmake --build build --target c_01_align

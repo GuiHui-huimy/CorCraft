@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 08-01  raii/01_scope_guard.cpp
  * Drills: a class that owns, the move that transfers ownership, a custom
  *         deleter, and a guard object that releases on every exit path.

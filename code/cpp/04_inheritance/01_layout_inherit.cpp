@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 04-01  inheritance/01_layout_inherit.cpp
  * Drills: a base subobject is a member at offset zero; the empty base costs
  *         nothing; a non-virtual destructor deletes the wrong amount.

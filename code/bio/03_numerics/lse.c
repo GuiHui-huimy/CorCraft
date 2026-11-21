@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 03-02  numerics/lse.c
  * Drills: the underflow in a naive sum of exponentials, the shift by the
  *         maximum that avoids it, and the comparison to a reference.

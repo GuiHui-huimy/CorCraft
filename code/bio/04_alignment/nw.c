@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 04-01  alignment/nw.c
  * Drills: the Needleman-Wunsch recurrence, the traceback, and the two-row
  *         score-only variant that proves the table can be smaller.

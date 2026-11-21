@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 03-01  numerics/kahan.c
  * Drills: how a naive sum loses the small terms, and how compensation keeps
  *         them, measured rather than asserted.

@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 14-01  sorting/01_sort_bench.c
  * Drills: O(n log n) against O(n^2), and the cost of the comparison itself.
  * Build:  cmake --build build --target c_14_sort

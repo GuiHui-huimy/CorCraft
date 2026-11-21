@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 07-01  heap/01_growth_trace.c
  * Drills: realloc growth, the address that changes, and the capacity policy.
  * Build:  cmake --build build --target c_07_growth

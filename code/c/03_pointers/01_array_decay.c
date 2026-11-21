@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 03-01  pointers/01_array_decay.c
  * Drills: array to pointer decay, sizeof at the two levels, what is lost.
  * Build:  cmake --build build --target c_03_decay

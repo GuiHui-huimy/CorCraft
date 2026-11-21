@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 06-01  structs_padding/01_layout_table.c
  * Drills: one data set in four member orders, the size each costs, and the
  *         bytes that are padding rather than data.

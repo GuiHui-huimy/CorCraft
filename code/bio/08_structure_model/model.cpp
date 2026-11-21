@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 08-01  structure_model/model.cpp
  * Drills: the parser's arrays become an owning object graph, a query that
  *         borrows, and the same numbers from the same input.

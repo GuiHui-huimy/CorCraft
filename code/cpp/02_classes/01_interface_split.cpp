@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 02-01  classes/01_interface_split.cpp
  * Drills: the class as an invariant, const member functions, and the header
  *         that declares while the implementation stays here.

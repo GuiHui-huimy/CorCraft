@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 12-01  exceptions/01_stack_unwind.cpp
  * Drills: unwinding destroys what was constructed, a raw pointer leaks, a
  *         constructor that throws releases its members, and noexcept changes

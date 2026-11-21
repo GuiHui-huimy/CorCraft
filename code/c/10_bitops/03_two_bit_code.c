@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 10-03  bitops/03_two_bit_code.c
  * Drills: packing bases two bits each, clearing before setting, and reading
  *         back across a word boundary.

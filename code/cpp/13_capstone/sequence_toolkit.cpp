@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 13-01  capstone/sequence_toolkit.cpp
  * Drills: the whole C++ half in one program: an owning Sequence, a Composition
  *         over it, a Fraction with an invariant, and a report written to a

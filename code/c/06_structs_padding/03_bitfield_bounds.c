@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 06-03  structs_padding/03_bitfield_bounds.c
  * Drills: bit-field width, the signedness trap, and reading packed fields back.
  * Build:  cmake --build build --target c_06_bits

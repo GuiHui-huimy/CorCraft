@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 02-01  encoding/gc_kmer.c
  * Drills: composition from a 26-slot table, the GC fraction's two decisions,
  *         and a k-mer count in base-4 arithmetic.

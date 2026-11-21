@@ -11,7 +11,7 @@ repo_url: https://github.com/GuiHui-huimy/CorCraft
 edit_uri: edit/main/docs/
 
 # Copyright
-copyright: Copyright &copy; 2026 HUIMY - C/C++ Craft
+copyright: Copyright &copy; 2026 HUIMY - Text CC BY-NC-SA 4.0, code MIT
 
 # Configuration
 theme:
@@ -102,6 +102,7 @@ markdown_extensions:
   - def_list
   - footnotes
   - md_in_html
+  - tables
   - toc:
       permalink: true
   - pymdownx.arithmatex:
@@ -213,4 +214,5 @@ nav:
     - How I Use AI to Build a Project: about/ai-assisted-workflow.md
     - Contributing: contributing.md
     - Security: security.md
+    - License: license.md
     - Changelog: changelog.md

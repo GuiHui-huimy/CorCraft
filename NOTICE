@@ -1,0 +1,48 @@
+C/C++ Craft
+Copyright (c) 2026 HUIMY
+https://github.com/GuiHui-huimy/CorCraft
+
+Licence scope
+-------------
+
+This repository carries two licences, and the boundary is stated in
+docs/license.md.
+
+  docs/**/*.md, docs/assets/images/*, and the exercises in the text
+      Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+      (CC BY-NC-SA 4.0)
+      https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+  code/, labs/, tools/, CMakeLists.txt, mkdocs.yml, and every code block
+  inside a page
+      MIT, see LICENSE
+
+Components and their licences
+-----------------------------
+
+  MkDocs Material (docs/material/templates, docs/material/plugins,
+  docs/material/extensions, and the bundled assets)
+      MIT, Copyright (c) Martin Donath and contributors.
+      https://github.com/squidfunk/mkdocs-material/blob/master/LICENSE
+
+  JavaScript bundled with MkDocs Material (Lunr, KaTeX and others)
+      Retain the licences shipped with the upstream package.
+
+  Structure coordinates referenced in the text
+      Derived from entries in the Protein Data Bank (1UBQ, 1CRN, 1A3N),
+      subject to the wwPDB terms of use. The repository ships no coordinate
+      files; data/README.md lists the accessions and the fetch commands.
+
+Trademarks and identity
+-----------------------
+
+"C/C++ Craft", "CorCraft", the logo at docs/assets/images/Logo.png and the
+site identity are not licensed under CC BY-NC-SA 4.0 or MIT. Attribution
+gives credit; it does not grant permission to use the names or the logo as a
+mark, or to imply that a derivative is the original.
+
+Contact
+-------
+
+suguohui_account@163.com
+https://www.huimy.top

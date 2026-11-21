@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 05-01  polymorphism/01_vtable_probe.cpp
  * Drills: virtual dispatch, the vtable pointer inside the object, and the
  *         difference between calling through a base reference and by value.

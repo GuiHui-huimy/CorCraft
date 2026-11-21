@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 05-01  strings/01_strlen_reimpl.c
  * Drills: what strlen actually does, the off-by-one at the terminator, and the
  *         cost of rescanning a prefix inside a loop.

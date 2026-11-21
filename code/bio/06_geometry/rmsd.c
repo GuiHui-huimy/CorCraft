@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 06-02  geometry/rmsd.c
  * Drills: the radius of gyration, the difference between a raw RMSD and one
  *         after superposition, and the centroid computed twice.

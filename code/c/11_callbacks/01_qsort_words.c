@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 11-01  callbacks/01_qsort_words.c
  * Drills: a comparison function as a function pointer, and the two defects
  *         inside a comparator written in a hurry.

@@ -1,3 +1,5 @@
+/* SPDX-FileCopyrightText: 2026 HUIMY */
+/* SPDX-License-Identifier: MIT */
 /* LAB 03-02  pointers/02_out_param_swap.c
  * Drills: passing by pointer to modify the caller's object, and the reason a
  *         function cannot swap through by-value parameters.
