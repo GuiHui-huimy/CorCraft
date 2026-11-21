@@ -58,18 +58,18 @@ double secs = (b.tv_sec - a.tv_sec) + (b.tv_nsec - a.tv_nsec) * 1e-9;
 
 ## 3. What the speedup actually is
 
-A representative measurement on a 4-core machine, `1A3N` against 1000 ligands:
+A worked example for `1A3N` against 1000 ligands on a 4-core machine. The numbers are chosen to show the arithmetic and are consistent with the serial fraction used below; they are not copied from a recorded run, so when you run the lab your own numbers will land near these and not on them:
 
 | Threads | Wall time | Speedup | Efficiency |
 | --- | --- | --- | --- |
 | 1 | 4.00 s | 1.00× | 100% |
-| 2 | 2.05 s | 1.95× | 98% |
-| 4 | 1.18 s | 3.39× | 85% |
-| 8 | 0.95 s | 4.21× | 53% |
+| 2 | 2.20 s | 1.82× | 91% |
+| 4 | 1.30 s | 3.08× | 77% |
+| 8 | 1.29 s | 3.10× | 39% |
 
-The 8-thread row on a 4-core machine shows oversubscription: the OS time-slices 8 threads onto 4 cores, and the only gain is from hiding I/O and memory stalls. The efficiency column is the honest number — a 4.2× speedup on 8 threads is 53% efficiency, not 4.2× "scaling".
+The 8-thread row on a 4-core machine is the oversubscription case: the OS time-slices 8 threads onto 4 cores, so the row is roughly the 4-thread row again. The efficiency column is the honest number — 3.1× on 8 threads is 39% efficiency, not 3.1× "scaling".
 
-The 4-thread row is already below 100% because of the serial fraction. With \(p = 0.9\), Amdahl's law gives a ceiling of 3.08× at 4 threads; the measured 3.39× is close, and the gap is measurement noise rather than a contradiction.
+The 4-thread row is below 4× because of the serial fraction. With \(p = 0.9\), Amdahl's law gives a ceiling of 3.08× at 4 threads, which is where the table's value sits; a real run lands near it, and the difference is noise rather than a contradiction.
 
 The lab requires the reader to report all four numbers and the serial fraction, estimated by running with 1 thread and timing a serial-only section. A speedup number without its thread count and efficiency is not a measurement.
 

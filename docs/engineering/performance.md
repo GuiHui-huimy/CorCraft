@@ -35,7 +35,7 @@ for (i) for (j) sum += a[i][j];      // row-major: sequential
 for (j) for (i) sum += a[i][j];      // column-major: stride 400 bytes
 ```
 
-Both are O(n²) and both perform the same number of additions. On a 2000×2000 `int` matrix the second is several times slower, entirely because each access misses the cache line that the next access in the loop needed. The mechanism:
+Both are O(n²) and both perform the same number of additions. On a 2000×2000 `int` matrix the second is typically several times slower — the exact factor depends on the machine and the cache size, the direction does not — entirely because each access misses the cache line that the next access in the loop needed. If you want a number rather than a direction, this is the one lab in the book worth running on your own hardware. The mechanism:
 
 - A cache line is 64 bytes = 16 `int`s.
 - Row-major: 16 consecutive sums use one line, then one miss.

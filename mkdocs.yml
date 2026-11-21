@@ -208,6 +208,7 @@ nav:
     - Error Cookbook: reference/error-cookbook.md
     - Repository Layout: reference/repo-layout.md
     - Glossary: reference/glossary.md
+    - References: reference/references.md
   - About:
     - Roadmap: about/roadmap.md
     - Projects: about/projects.md

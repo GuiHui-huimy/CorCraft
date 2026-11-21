@@ -36,6 +36,15 @@ Changes to this book and to the code it ships with. Entries are dated; a page ch
 
 The homepage demonstration image is still the inherited screenshot; it is kept as a placeholder, and the book's own terminal capture replaces it when one exists.
 
+## 2026-11-22 — Citations, and numbers that read as measurements
+
+### Documentation
+
+- Added `reference/references.md`: the works whose results the chapters actually use (Needleman–Wunsch, Hirschberg, BLOSUM, Kahan, Goldberg, Kernighan & Ritchie, Amdahl, Drepper), the C17 and C++20 standards, and the PDB and mmCIF format guides. Added to the Reference section of the nav.
+- Rewrote three passages that presented a number as a measurement without a recorded run: the 40% `vector<string>` claim in `cpp/exceptions.md`, "several times slower" in `engineering/performance.md`, and the speedup table in `bio/parallel-scoring.md`, which is now labelled a worked example consistent with \(p = 0.9\) rather than a recorded run.
+- Removed the mention of an archived `changeSort.c` that the repository does not contain, in `c/sorting-and-cost.md`; the field note keeps the observation and now says which machine and that it was one run.
+- Rewrote section 1 of `start-here/about-the-author.md` to cover the genome and transcriptome work, the GROMACS pipelines, enzyme mutation scanning, the two unpublished Python packages, CUDA, and the feature-to-model chain.
+
 ## 2026-11-22 — New subtitle
 
 ### Documentation

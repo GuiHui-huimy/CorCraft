@@ -98,7 +98,7 @@ Binary search is O(log n), and it fails silently on an unsorted array: it return
 
 ## 6. Field note: the benchmark that measured the wrong thing
 
-The archived `changeSort.c` sorted 100,000 random integers with two selection-sort variants and printed the elapsed time for each. The first variant swapped inside the inner loop; the second, correctly, found the minimum first. The reported times differed by a factor of three, which was read as evidence that the second algorithm was algorithmically better.
+An early version of this lab's benchmark sorted 100,000 random integers with two selection-sort variants and printed the elapsed time for each. The first variant swapped inside the inner loop; the second, correctly, found the minimum first. The times differed by roughly a factor of three on the machine it ran on, which was read as evidence that the second algorithm was algorithmically better.
 
 It was not. Both are O(n²) with the same comparison count; the difference was the number of conditional stores, which is a constant-factor effect. The measurement was correct and the conclusion drawn from it was not, because the benchmark changed two things at once.
 
