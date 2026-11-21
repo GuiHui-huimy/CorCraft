@@ -7,8 +7,15 @@ authors:
     given-names: Guohui
     affiliation: "Henan University of Technology"
     email: suguohui_account@163.com
+    orcid: "https://orcid.org/0009-0009-7316-1271"
 version: 1.0.0
 doi: 10.5281/zenodo.24422396
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24422395
+    description: "Concept DOI, always resolves to the latest version"
+publisher:
+  name: "HUI-MY"
 date-released: "2026-11-22"
 url: "https://guihui-huimy.github.io/CorCraft/"
 repository-code: "https://github.com/GuiHui-huimy/CorCraft"

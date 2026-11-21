@@ -34,13 +34,15 @@
     <img src="https://img.shields.io/badge/Build-Linux%20%7C%20VS%202022%20%7C%20conda-2E7D32" alt="Build routes">
   </a>
   <img src="https://img.shields.io/badge/Status-Complete-brightgreen" alt="Status">
-  <a href="https://doi.org/10.5281/zenodo.24422396" target="_blank">
-    <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.24422396.svg" alt="DOI">
+  <a href="https://doi.org/10.5281/zenodo.24422395" target="_blank">
+    <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.24422395.svg" alt="DOI">
   </a>
 </p>
 
 <p align="center">
-  DOI: <a href="https://doi.org/10.5281/zenodo.24422396">10.5281/zenodo.24422396</a>
+  Concept DOI: <a href="https://doi.org/10.5281/zenodo.24422395">10.5281/zenodo.24422395</a>
+  &nbsp;·&nbsp;
+  Version 1.0.0: <a href="https://doi.org/10.5281/zenodo.24422396">10.5281/zenodo.24422396</a>
 </p>
 
 <p align="center">

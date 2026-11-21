@@ -36,6 +36,14 @@ Changes to this book and to the code it ships with. Entries are dated; a page ch
 
 The homepage demonstration image is still the inherited screenshot; it is kept as a placeholder, and the book's own terminal capture replaces it when one exists.
 
+## 2026-11-22 — Published on Zenodo
+
+### Documentation
+
+- The book is now archived as a Book record: version DOI `10.5281/zenodo.24422396`, concept DOI `10.5281/zenodo.24422395` (the one that always resolves to the latest version).
+- `CITATION.cff`: the concept DOI is recorded under `identifiers`, the ORCID and the publisher name are added, and `doi` stays on the version DOI so a citation pins 1.0.0.
+- `README.md`: the Zenodo badge now points at the concept DOI, and both DOIs are printed under it.
+
 ## 2026-11-22 — Citations, and numbers that read as measurements
 
 ### Documentation
